@@ -12,4 +12,5 @@ while i > 0:
 		print('密碼錯誤!')
 		if i > 0:
 			print('還有', i, '次機會')
-			
+		elif i == 0:
+		    print('帳號已鎖定')	
